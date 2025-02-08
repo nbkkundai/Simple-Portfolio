@@ -7,7 +7,7 @@
                 <div class="mb-12">
                     <div class="w-40 h-40 md:w-48 md:h-48 mx-auto rounded-full  border-4 border-pink-500 p-1 shadow-xl">
                         <img 
-                            src="images/dee.jpg" 
+                            src="/images/dee.jpg" 
                             alt="Devotion Kamoyo" 
                             class="w-full h-full object-cover rounded-full transform hover:scale-105 transition-transform duration-300"
                         >
