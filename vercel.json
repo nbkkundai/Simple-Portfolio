@@ -17,18 +17,6 @@
     "env": {
         "APP_ENV": "production",
         "APP_DEBUG": "false",
-        "COMPOSER_VERSION": "2",
-        "PHP_VERSION": "8.2",
-        "PHP_EXTENSIONS": [
-            "openssl",
-            "pdo_mysql",
-            "zip",
-            "pdo",
-            "mysqli",
-            "mbstring",
-            "dom",
-            "xml",
-            "curl"
-        ]
+        "PHP_EXTENSIONS": "openssl,pdo_mysql,zip,pdo,mysqli,mbstring,dom,xml,curl"
     }
 }
