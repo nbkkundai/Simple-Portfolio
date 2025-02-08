@@ -20,7 +20,6 @@
         "APP_URL": "https://simple-portfolio-git-main-nbkkundais-projects.vercel.app/",
         "COMPOSER_ALLOW_SUPERUSER": "1",
         "COMPOSER_HOME": "/tmp/.composer",
-        "PATH": "/usr/local/bin:/usr/bin:/bin",
         "PHP_VERSION": "8.2",
         "PHP_EXTENSIONS": "openssl,pdo_mysql,zip,pdo,mysqli,mbstring,dom,xml,curl"
     }
