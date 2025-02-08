@@ -12,13 +12,15 @@
             "dest": "/api/index.php"
         }
     ],
-    "buildCommand": "curl -sS https://getcomposer.org/installer | php && php composer.phar install --no-dev && npm install && npm run build",
+    "buildCommand": "php -r \"copy('https://getcomposer.org/installer', 'composer-setup.php');\" && php composer-setup.php && php composer.phar install --no-dev && npm install && npm run build",
     "outputDirectory": "public",
     "env": {
         "APP_ENV": "production",
         "APP_DEBUG": "false",
-     
-        "COMPOSER_VERSION": "2",
+        "APP_URL": "https://simple-portfolio-git-main-nbkkundais-projects.vercel.app/",
+        "COMPOSER_ALLOW_SUPERUSER": "1",
+        "COMPOSER_HOME": "/tmp/.composer",
+        "PATH": "/usr/local/bin:/usr/bin:/bin",
         "PHP_VERSION": "8.2",
         "PHP_EXTENSIONS": "openssl,pdo_mysql,zip,pdo,mysqli,mbstring,dom,xml,curl"
     }
