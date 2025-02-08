@@ -1,18 +1,7 @@
 {
-    "version": 2,
-    "framework": null,
     "functions": {
-        "api/index.php": {
-            "runtime": "vercel-php@0.6.0"
-        }
-    },
-    "routes": [
-        {
-            "src": "/(.*)",
-            "dest": "/api/index.php"
-        }
-    ],
-    "buildCommand": "npm run build",
-    "outputDirectory": "public",
-    "public": true
-}
+      "api/users/**/*.js": {
+        "maxDuration": 30
+      }
+    }
+  }
