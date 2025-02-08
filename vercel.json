@@ -12,7 +12,23 @@
             "dest": "/api/index.php"
         }
     ],
-    "buildCommand": "npm run build",
+    "buildCommand": "composer install --no-dev && npm run build",
     "outputDirectory": "public",
-    "public": true
+    "env": {
+        "APP_ENV": "production",
+        "APP_DEBUG": "false",
+        "COMPOSER_VERSION": "2",
+        "PHP_VERSION": "8.2",
+        "PHP_EXTENSIONS": [
+            "openssl",
+            "pdo_mysql",
+            "zip",
+            "pdo",
+            "mysqli",
+            "mbstring",
+            "dom",
+            "xml",
+            "curl"
+        ]
+    }
 }
